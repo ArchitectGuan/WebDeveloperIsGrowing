@@ -1,0 +1,105 @@
+/* ------------------------- */
+/* ------ BASIC SETUP ------ */
+/* ------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300;
+  font-family: "Lato", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  position: relative;
+  overflow: hidden;
+  /* cursor: url('../../vendors/img/arrow-right-white.svg'),auto; */
+}
+
+/* ----- HEADER ----- */
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  width: 93%;
+  margin: 0 auto;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.main-nav {
+  list-style: none;
+  float: right;
+}
+
+.main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  display: block;
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #fff;
+}
+
+/* ----- MAIN ----- */
+
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+.cover-photo {
+  width: 100%;
+}
+
+.caption a:link,
+.caption a:visited {
+  text-decoration: none;
+  font-size: 3rem;
+  color: #fff;
+  position: absolute;
+  left: 80px;
+  bottom: 50px;
+  letter-spacing: 1px;
+  transition: opacity 0.3s;
+}
+
+.caption a:hover,
+.caption a:active {
+  opacity: 0.7;
+}
+
+.desc{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+    <title>Mengo</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">Mengo</a>
+            <ul class="main-nav">
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Studio</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main></main>
+    <script type="template" id="photo-with-title">
+        <img src="<%= src %>" class="cover-photo">
+        <p class="caption"><a href="#"><%= title %></a></p>
+    </script>
+    <script type="template" id="video-with-title">
+        <video height="100%" autoplay muted loop>
+                <source src="<%= src %>" type="video/mp4">
+        </video>
+        <p class="caption"><a href="#"><%= title %></a></p>
+    </script>
+    <script type="template" id="photo-with-desc">
+        <img src="<%= src %>" class="cover-photo">
+        <p class="desc"><%= desc %></p>
+    </script>
+    <script src="./vendors/js/underscore.js"></script>
+    <script src="./resources/js/script.js"></script>
+</body>
+
+</html>
