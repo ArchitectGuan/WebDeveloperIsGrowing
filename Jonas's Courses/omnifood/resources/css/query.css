@@ -101,6 +101,10 @@
     .hero-text-box {
         padding: 0 4%;
     }
+    /* Fix the problem not showing on safari */
+    header{
+        background-attachment: scroll;
+    }
 
     .long-copy {
         width : 90%;
