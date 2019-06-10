@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Print word Effect</title>
+    <style>
+        body{
+            background-color: #000;
+            color: #fff;
+            font-size: 50px;
+        }
+
+        .typed-cursor{
+      opacity: 1;
+      -webkit-animation: blink 0.7s infinite;
+      -moz-animation: blink 0.7s infinite;
+      animation: blink 0.7s infinite;
+    }
+    @keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    </style>
+</head>
+
+<body>
+    <span class="element"></span>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+<script>
+    var typed = new Typed('.element', {
+        strings: ["纠正一个错误的方法有很多", "而解决一个错误的终极方法，就是不给它发生的机会。"], //输入内容, 支持html标签
+        typeSpeed: 100, //打字速度
+        backSpeed: 50 //回退速度
+    });
+</script>
+
+</html>
