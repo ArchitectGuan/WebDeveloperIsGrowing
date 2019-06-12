@@ -70,7 +70,7 @@
     }
 
     .contact-form {
-        width: 80%;
+        width: 95%;
     }
 }
 
@@ -178,8 +178,23 @@
         padding-top: 7px;
     }
 
+    #map{
+        height: 300px;
+    }
+
+    .form-box{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
     .contact-form {
         width: 90%;
+    }
+
+    .last-2nd-col{
+        margin-bottom: 0;   
     }
 
     footer .col {
