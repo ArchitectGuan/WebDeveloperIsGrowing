@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'GM';
+    src: url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GB';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FDB';
+    src: url('FreightDispBook.woff2') format('woff2'),
+        url('FreightDispBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FDM';
+    src: url('Freight-DispMedium.woff2') format('woff2'),
+        url('Freight-DispMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FDBD';
+    src: url('Freight-DispBold.woff2') format('woff2'),
+        url('Freight-DispBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
