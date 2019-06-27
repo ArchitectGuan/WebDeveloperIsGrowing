@@ -36,13 +36,13 @@ body {
 /* HEADING */
 h2 a:link,
 h2 a:visited {
-    font-family: 'GM';
-    font-size: .8rem;
-    font-weight: normal;
-    color    : #6F8555;
+    font-family   : 'GM';
+    font-size     : .8rem;
+    font-weight   : normal;
+    color         : #6F8555;
     letter-spacing: 3px;
-    line-height: 1.5em;
-    margin: 0.83em 0;
+    line-height   : 1.5em;
+    margin        : 0.83em 0;
 }
 
 a:link,
@@ -51,8 +51,8 @@ a:visited {
     text-decoration: none;
 }
 
-p{
-    margin: 1em 0;
+p {
+    margin     : 1em 0;
     line-height: 1.5em;
 }
 
@@ -76,24 +76,24 @@ img {
 }
 
 .more:link,
-.more:visited{
-    display: block;
-    padding: 2px;
-    font-family: 'GM';
-    font-size: .6rem;
-    color:#9B9B9B;
-    text-transform: uppercase;
-    line-height: 14px;
-    letter-spacing: 2px;
-    transition: all 0.3s ease-out ;
-    -webkit-transition: all 0.3s ease-out ;
-    -moz-transition: all 0.3s ease-out ;
-    -ms-transition: all 0.3s ease-out ;
-    -o-transition: all 0.3s ease-out ;
+.more:visited {
+    display           : block;
+    padding           : 2px;
+    font-family       : 'GM';
+    font-size         : .6rem;
+    color             : #9B9B9B;
+    text-transform    : uppercase;
+    line-height       : 14px;
+    letter-spacing    : 2px;
+    transition        : all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition   : all 0.3s ease-out;
+    -ms-transition    : all 0.3s ease-out;
+    -o-transition     : all 0.3s ease-out;
 }
 
 .more:hover,
-.more:active{
+.more:active {
     color: #4a4a4a;
 }
 
@@ -319,20 +319,184 @@ g {
     right: 0;
 }
 
-.lure-box2 .more{
+.lure-box2 .more {
     float: left;
 }
 
 /* LURE BOX 3 */
-.lure-box3{
-    position: relative;
+.lure-box3 {
+    position  : relative;
     margin-top: 8vw;
     text-align: right;
 }
 
-.lure-box3 figure{
+.lure-box3 figure {
     width: 78%;
 }
-.lure-box3 .more{
+
+.lure-box3 .more {
     float: right;
+}
+
+
+
+
+/* ------------------------------ */
+/* ------  HOME FURNITURE  ------ */
+/* ------------------------------ */
+.home-furniture {
+    background-image   : url('./img/Background-furniture-home-promo-1849x1280.jpg');
+    background-size    : cover;
+    background-position: center;
+    padding-bottom: 80px;
+}
+
+.home-furniture h2 {
+    text-align: center;
+    margin-top: calc(5vw + 15px);
+}
+
+.home-furniture h2 a:link,
+.home-furniture h2 a:visited {
+    color: #fff;
+}
+
+.home-furniture p {
+    margin    : 60px auto;
+    text-align: center;
+}
+
+.home-furniture p a:link,
+.home-furniture p a:visited{
+    color: rgba(255, 255, 255, 0.7);
+    transition: all .25s ease-in;
+    -webkit-transition: all .25s ease-in;
+    -moz-transition: all .25s ease-in;
+    -ms-transition: all .25s ease-in;
+    -o-transition: all .25s ease-in;
+}
+
+.furniture-showcase{
+    padding: 0 40px;
+}
+
+.home-furniture p a:hover,
+.home-furniture p a:active{
+    color: rgb(255, 255, 255,1);
+}
+
+.furniture-img{
+    padding: 0 5%;
+    overflow: hidden;   
+}
+
+.furniture-img img{
+    transition: all 0.75s;
+    -webkit-transition: all 0.75s;
+    -moz-transition: all 0.75s;
+    -ms-transition: all 0.75s;
+    -o-transition: all 0.75s;
+}
+
+.furniture-img img:hover{
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+
+.furniture-more{
+    padding-top: 15px;
+    text-align: center;
+}
+
+.furniture-more a:link,
+.furniture-more a:visited{
+    font-family: 'GM';
+    font-size: .6rem;
+    letter-spacing: 2.2px;
+    color: rgba(255, 255, 255, 0.75);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+.furniture-more a:hover,
+.furniture-more a:active{
+    color: rgba(255,255,255,1);
+}
+
+/* ---------------------- */
+/* ------  FOOTER  ------ */
+/* ---------------------- */
+footer{
+    padding-top: 20px;
+}
+
+footer table{
+    margin: 0 auto;
+    width: 82.5%;
+    line-height: 26px;
+    letter-spacing: 3px;    
+    text-transform: uppercase;
+}
+
+footer table tr{
+    height: 60px;
+}
+
+.footer-location,
+.footer-logo-mark{
+    text-align: center;
+}
+
+.footer-email{
+    text-align: right;
+}
+
+.footer-phone-num,
+.footer-email,
+.footer-location{
+    font-family: 'GB';
+    font-size: .55rem;
+}
+
+
+.footer-location{
+    font-family: 'FDM';
+    font-size: .7rem;
+}
+
+footer table tr:nth-child(2){
+    font-size: .6rem;
+}
+
+.extra-info{
+    list-style: none;
+    float:right;
+}
+
+.extra-info li{
+    display: inline-block;
+}
+
+.extra-info li:after{
+    content: '|';
+    padding: 0 5px;
+}
+
+.extra-info li:last-child::after{
+    content: '';
+    padding: 0;
+}
+
+
+
+
+
+.int{
+    display: none;
 }
